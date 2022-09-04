@@ -1,0 +1,79 @@
+* {
+    padding: 2px;
+    margin: 2px;
+    box-sizing: border-box;
+}
+body {
+    background-image: linear-gradient(#3c3b3f,#605c3c);
+}
+h1 {
+    color: #B5AFA2;
+    text-align: center;
+    margin: 20px;
+}
+form h2 {
+    font-size: 30px;
+    margin: 20px;
+    color: #610808;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    border: solid 2px none;
+    width: 50%;
+    margin: 30px;
+}
+label {
+   font-size: 21px;
+   font-weight: bold;
+}
+.hero {
+    display: flex;
+}
+form {
+    box-shadow: 1px 0px 4px 4px ;
+    border-radius: 10px;
+    justify-content: center;
+    text-align: center;
+    height: 500px;
+    width: 90%;
+}
+form div {
+    margin: 10px 0 20px 0;
+    font-size: 18px;
+}
+.work {
+    border: 1px solid #fff;
+    border-radius: 3px;
+    width: 300px;
+    padding: 6px;
+    font-size: 15;
+}
+h3 {
+    font-size: 25px;
+    color: #B5AFA2;
+    font-weight: 200;
+    margin-left: 135px;
+    margin-top: 20px;
+}
+.button {
+    background-color: black;
+    padding: 10px;
+    border-radius: 10px;
+    color: #fff;
+    width: 30%;
+    margin-top: 11px;
+    font-size: 16px;
+    font-weight: bold;
+}
+.card {
+    background-color: black ;
+    color: #fff;
+    width: 300px;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 100px;
+    margin-left: 80px;
+}
